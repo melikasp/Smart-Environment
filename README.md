@@ -5,4 +5,9 @@ In the dataset you have the packets received gateways which are placed in differ
 
 Moreover, in LoRa the Spreading Factor (SF) parameter controls the time-on-air of a packet. The higher SF is, the more probable is for a gateway to receive a packet.
 
-Derive the distribution of the RSSI and SF for each gateway
+- Derive the distribution of the RSSI and SF for each gateway
+
+second challenge:
+Some packets could be dropped by the network for various reasons: collisions, interference, etc…
+
+- Compute the ratio of lost packets
